@@ -1,0 +1,69 @@
+/*
+Sárga r: 255 g: 230 b: 153
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 75vw;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(250, 230, 153);
+}
+
+p, img, h2{
+    margin: 10px;
+}
+
+p{
+    font-family: monospace;
+    font-size: 23px;
+    font-style: italic;
+} 
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25%;
+}
+
+.row, .header{
+    border-bottom: 2.5px solid black;
+}
+
+.video{
+    text-align: center;
+    margin: 10px;
+}
+
+iframe{
+    position:relative;
+    width: 100%;
+}
+
+.gomb{
+    text-align: center;
+    font-size: 250%;
+    margin: 10%;
+}
+
+.gomb a{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.gomb a:hover{
+    color: blue;
+}
+
+
+

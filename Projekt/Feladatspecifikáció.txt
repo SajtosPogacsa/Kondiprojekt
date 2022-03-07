@@ -1,0 +1,38 @@
+Konditermi projekt
+
+Milyen nyelven?
+-Html, css
+
+Célja?
+-Konditermi gyarkorlatok bemutatása
+
+Határidő:
+-Március 14.
+
+Milyen eszközre?
+-Telefon, tablet kompatibilis
+
+Kik használják:
+-diákok 14-18 éves kor között.
+
+Mennyi feladat:
+-9 feladat
+
+Videó:
+-(1080p/720p60fps?)
+-Linkelés nem lokális
+-Videó 5/13-tól (Kik azok a 5/13? - ötöd éves fitness wellness instruktorok,de egyébként nem ők adják)
+
+Anyagi fedezet:
+-Nincs. 😢
+
+Eszközök:
+-VS code
+-internet
+
+Weboldal elérhető:
+-QR kóddal(hu.qr-code-generator.com)
+
+Célja:
+-Edzőtermi feladatok bemutatása átláthatóan kezdőknek és haladóknak webes formátumban. (Az edzőterem népszerűsítése)
+
