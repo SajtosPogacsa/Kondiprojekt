@@ -8,6 +8,7 @@ Sárga r: 255 g: 230 b: 153
 
 img{
     width: 75vw;
+    
 }
 
 body{
@@ -21,12 +22,14 @@ p, img, h2{
 
 h2{
     margin-top: 15px;
+    text-align: center;
 }
 
 p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 23px;
     font-style: italic;
+    text-align: justify;
 } 
 
 h2{
@@ -61,13 +64,33 @@ iframe{
 }
 
 .gomb a{
-    text-decoration: underline;
-    color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
 }
 
 .gomb a:hover{
-    color: blue;
+    color: black;
 }
 
+.center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
 
+.row p a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
 
+.row p{
+    text-align: center;
+    margin: 25px 25px;
+}
