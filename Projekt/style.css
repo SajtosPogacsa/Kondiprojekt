@@ -8,7 +8,7 @@ Sárga r: 255 g: 230 b: 153
 
 img{
     width: 75vw;
-    
+    border-radius: 50px 25px;
 }
 
 body{
@@ -97,6 +97,7 @@ iframe{
     padding: 10px;
     background-color: grey;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
 }
 
 .row p{
