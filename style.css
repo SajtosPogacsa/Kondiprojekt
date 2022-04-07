@@ -158,7 +158,7 @@ iframe{
     width: 100%;
 }
 
-.column {
+.footer .column {
     float: left;
     width: 50%;
 }
