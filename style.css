@@ -6,11 +6,6 @@ Sárga r: 255 g: 230 b: 153
     box-sizing: border-box;
 }
 
-img{
-    width: 75vw;
-    border-radius: 50px 25px;
-}
-
 body{
     margin: 0;
     background-color: rgb(226, 194, 142);
@@ -25,12 +20,14 @@ h2{
     text-align: center;
 }
 
+/*
 p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 23px;
     font-style: italic;
     text-align: justify;
 } 
+*/
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -89,7 +86,16 @@ iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    border-radius: 50px 25px;
+}
+
+.row p{
+    text-align: justify;
+    margin: 25px 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-style: italic;
+    text-align: justify;
 }
 
 .row p a{
@@ -99,12 +105,13 @@ iframe{
     background-color: grey;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+    text-align: center;
 }
 
-.row p{
+#Gomb {
     text-align: center;
-    margin: 25px 25px;
 }
+
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -145,4 +152,20 @@ iframe{
 .active {
     background-color: peru;
     color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+    .center img{
+        width: 40vw;
+    }
+
+    .row p{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .center img{
+        width: 75vw;
+    }
 }
