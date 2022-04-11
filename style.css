@@ -74,7 +74,7 @@ iframe{
     color: white;
     text-decoration: none;
     padding: 10px;
-    background-color: rgb(209, 63, 63);
+    background-color: grey;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
 }
@@ -110,7 +110,7 @@ iframe{
     text-align: center;
 }
 
-#Gomb {
+.IndexGomb {
     text-align: center;
 }
 
